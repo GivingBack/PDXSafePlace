@@ -1,0 +1,14 @@
+<h4>Edit Resource</h4>
+
+<label>New Resource Name:</label>
+<input [(ngModel)]="selectedResource.name">
+<br>
+
+<label>New Resource Artist:</label>
+<input [(ngModel)]="selectedResource.type">
+<br>
+
+<label>New Resource Description:</label>
+<input [(ngModel)]="selectedResource.description">
+
+<button (click)="beginUpdatingResource(selectedResource)">Update</button>

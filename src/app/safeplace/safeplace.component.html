@@ -1,0 +1,15 @@
+<h2>Resources</h2>
+
+<div *ngFor="let resource of resources | async"  (click)="goToDetailPage(resource)" class="panel panel-default ">
+  <div class="panel-heading">
+    <h3>{{resource.name}}</h3>
+  </div>
+  <div class="panel-body">
+    <h5>{{resource.type}}</h5>
+    <h5>{{resource.description}}</h5>
+    <div *ngIf="currentRoute === '/admin'">
+      <hr>
+      <app-edit-resource [selectedResource]="resource"></app-edit-resource>
+    </div>
+  </div>
+</div>

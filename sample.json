@@ -1,0 +1,22 @@
+{ "resources": [{
+    "name": "Test Name 1",
+    "type": "Test Type 1",
+    "description": "Test Description 1",
+    "id": "1"
+  }, {
+    "name": "Test Item 2",
+    "type": "Test Author 2",
+    "description": "Test Description 2",
+    "id": "2"
+  }, {
+    "name": "Test Item 3",
+    "type": "Test Author 3",
+    "description": "Test Description 3",
+    "id": "3"
+  }, {
+    "name": "Test Item 4",
+    "type": "Test Author 4",
+    "description": "Test Description 4",
+    "id": "4"
+}]
+}
