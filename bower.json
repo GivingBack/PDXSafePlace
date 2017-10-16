@@ -6,7 +6,7 @@
     "Rich Garrick <richg341@gmail.com>"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/GivingBack/PDXSafePlace",
   "ignore": [
     "**/.*",
     "node_modules",
