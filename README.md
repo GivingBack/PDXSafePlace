@@ -24,6 +24,13 @@ Table of contents
 
 ## Installation/Setup
 
+  1.  fork repo down
+  2.  npm install
+  3.  bower install
+  4.  bower install bootstrap --save
+  5.  ng serve, then navigaet to localhost:4200 to view
+
+Available NG commands  
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
